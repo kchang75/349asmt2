@@ -23,6 +23,33 @@ main {
 	padding: 20px;
 }
 
-nav {
+.layout2 {
+	display: flex;
+}
+
+#nav-articles {
+	background-color: #8dbd8d;
+	padding: 20px;
+	position: sticky;
+	align-items: center;
+
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+
+#nav-one {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	position: sticky;
+}
+
+#nav-two {
+	display: flex;
+	align-items: center;
+	flex: 1;
 	position: sticky;
 }
