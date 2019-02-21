@@ -1,0 +1,28 @@
+html {
+	background-color: #b8d9b8;
+	padding: 30px;
+
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	order: -1;
+}
+
+footer {
+	order: 3;
+}
+
+main {
+	order: 2;
+	flex: 85%;
+	padding: 20px;
+}
+
+nav {
+	position: sticky;
+}

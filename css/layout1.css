@@ -1,0 +1,22 @@
+html {
+	background-color: #c3e7c2;
+	padding: 30px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	order: -1;
+}
+
+footer {
+	order: 3;
+}
+
+main {
+	order: 2;
+}
+
